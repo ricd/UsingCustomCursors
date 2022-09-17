@@ -1,0 +1,10 @@
+﻿<Window x:Class="UsingCustomCursors.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:usingCustomCursors="using:UsingCustomCursors"
+		Closed="OnWindowClosed">
+	<usingCustomCursors:Grid2 x:Name="_grid2"
+							  Background="Black"
+							  Loaded="OnGridLoaded"
+							  PointerPressed="OnGridPointerPressed" />
+</Window>
